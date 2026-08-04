@@ -2,6 +2,8 @@
 
 Aplicação simples de consulta de clima em tempo real, construída com React + Vite, consumindo a API pública do OpenWeatherMap.
 
+![preview](./preview.png)
+
 ## 🔗 Demo
 
 [Acesse o projeto online](https://weather-app-beta-six-52.vercel.app)
