@@ -3,7 +3,7 @@ function ErrorMessage({ message }) {
     return null
 
     return (
-        <p>{message}</p>
+        <p className="error-message">{message}</p>
     );
 }
 

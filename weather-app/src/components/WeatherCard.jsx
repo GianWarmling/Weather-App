@@ -6,14 +6,16 @@ function WeatherCard({ weatherData }) {
     const description = weather[0].description
 
     return (
-        <div>
+        <div className="card">
             <h2>{name}</h2>
-            <img src={`https://openweathermap.org/img/wn/${icon}@2x.png`} alt={description} />
+            <img
+                src={`https://openweathermap.org/img/wn/${icon}@2x.png`}
+                alt={description}
+            />
+            <p className="temperature">{Math.round(main.temp)}°C</p>
+            <p className="description">{description}</p>
 
-            <p>{Math.round(main.temp)}°C</p>
-            <p>{description}</p>
-
-            <div>
+            <div className="details">
                 <div>
                     <span>Sensação térmica</span>
                     <strong>{Math.round(main.feels_like)}°C</strong>

@@ -2,11 +2,11 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
     return (
-        <nav>
-            <Link to="/">
+        <nav className="navbar">
+            <Link className="navbar-title" to="/">
                 🌤️ Weather App
             </Link>
-            <div>
+            <div className="navbar-links">
                 <Link to ="/">Início</Link>
                 <Link to ="/sobre">Sobre</Link>
             </div>

@@ -7,7 +7,7 @@ import { useWeather } from "../hooks/useWeather";
 function Home() {
     const {weatherData, isLoading, error, searchWeather} = useWeather()
     return ( 
-        <div>
+        <div className="page">
             <h1>Weather App</h1>
             <SearchBar onSearch={searchWeather} isLoading={isLoading} />
             {isLoading && <Loading />}

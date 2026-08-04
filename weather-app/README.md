@@ -1,16 +1,50 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação simples de consulta de clima em tempo real, construída com React + Vite, consumindo a API pública do OpenWeatherMap.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Demo
 
-## React Compiler
+[Acesse o projeto no GitHub](https://github.com/GianWarmling/Weather-App)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- React Router DOM
+- OpenWeatherMap API
+- CSS puro
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 O que este projeto demonstra
+
+- Consumo de API externa com `fetch`
+- Custom Hooks para separar lógica de estado da interface
+- Componentização (Search, Card, Loading, Error, Navbar)
+- Roteamento entre páginas com React Router (Home, Sobre, 404)
+- Tratamento de erros (cidade não encontrada, falha de rede, campo vazio)
+- Proteção de chaves de API com variáveis de ambiente
+- Boas práticas de organização de pastas (components / pages / hooks / services)
+
+## 📦 Como rodar localmente
+
+\`\`\`bash
+git clone https://github.com/GianWarmling/weather-app.git
+cd weather-app
+npm install
+\`\`\`
+
+Crie um arquivo \`.env\` na raiz baseado no \`.env.example\`:
+
+\`\`\`
+VITE_OPENWEATHER_API_KEY=sua_chave_aqui
+\`\`\`
+
+Você pode obter uma chave gratuita em [openweathermap.org/api](https://openweathermap.org/api).
+
+\`\`\`bash
+npm run dev
+\`\`\`
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.

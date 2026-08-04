@@ -8,7 +8,7 @@ function SearchBar({ onSearch, isLoading }) {
         onSearch(city)
     }
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="search-bar" onSubmit={handleSubmit}>
             <input type="text"
                 placeholder="Digite o nome de uma cidade"
                 value={city}

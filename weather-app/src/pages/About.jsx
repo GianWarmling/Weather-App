@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div>
+        <div className="page">
             <h1>Sobre o projeto</h1>
             <p>
                 Este é um projeto de portfólio construído com React, Vite e a API

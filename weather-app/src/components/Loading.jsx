@@ -1,6 +1,6 @@
 function Loading() {
     return ( 
-        <p>Carregando dados do clima...</p>
+        <p className="loading">Carregando dados do clima...</p>
      );
 }
 
