@@ -2,10 +2,9 @@
 
 Aplicação simples de consulta de clima em tempo real, construída com React + Vite, consumindo a API pública do OpenWeatherMap.
 
-
 ## 🔗 Demo
 
-[Acesse o projeto no GitHub](https://github.com/GianWarmling/Weather-App)
+[Acesse o projeto online](https://weather-app-beta-six-52.vercel.app)
 
 ## 🚀 Tecnologias
 
